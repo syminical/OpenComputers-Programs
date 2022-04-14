@@ -2,6 +2,47 @@
 I created these programs while playing through the `Compact Claustrophobia` `minecraft` modpack on `FTB`.  
 I hope you find them useful; they helped me a lot. **:)**
 
-## P.S.
+### P.S.
 **Make sure you read the comments and place blocks in the correct slots!**
-**Sometimes the bot can't pick up the items and they expire on the floor. Check in often!**
+**Sometimes the bot cannot pick up the items and they expire on the floor. Check in often!**
+
+## Setup
+I copied `robot_hub.lua` (named `autorun` on disk) and the programs in `./minify` to a `floppy disk` for my robot.  
+
+### It helps to set up a link to the floppy disk mount.  
+You need to know its ID to set this up.
+1. cd /home
+2. `# edit .shrc`
+3. Add the following line: `ln /mnt/1fa robot/`
+    1. Hover over the `floppy disk` in your inventory and look at the `ID`.
+    2. Replace the `1fa` above with the first 3 characters of your disk's `ID`.
+4. (optional) Disable autorun on your main, non-robot, computer.
+   1. `# edit /etc/filesystem.cfg`
+   2. Add this line: `autorun=false`
+5. `reboot`  
+
+You are now able to safely insert floppies containing an `autorun`, and you can (more) easily access files in your robot floppy.
+
+## Floppy Disk Setup
+OpenComputers is annoying, or I am a noob. This is how I get code where it needs to be.  
+You can `shift+click` on the floppy in your inventory after opening the robot UI to put it in the right slot.
+
+### Modify Program on Floppy
+1. Insert floppy into disk reader.
+   - You can hold the floppy and `shift+right_click` it into the `Disk Drive`.
+2. `# rm robot/<path_to_program>` **(if program exists on floppy)**
+    - e.g. `rm robot/autorun`
+3. `# edit robot/<path_to_program>`
+    - If you ran `step 2`, press the `up arrow` key, `home` key, `delete` key x2, then type `edit` and press `enter`. **:)**
+4. Copy the code into your clipboard on your real computer. **(IRL)**
+5. Press down your `scroll wheel` on your mouse to paste.
+6. Wait for the **(long)** animation.
+7. **CAREFULLY** inspect the last few lines at the bottom. It may have not pasted everything you copied.  
+Find the start of the first line it missed and copy from there to the end of the code to your real clipboard again.  
+**CAREFULLY** click on the first pixel of the first empty line at the bottom and press your `mouse wheel` again to paste. Repeat until all the code makes it in correctly.
+    - Targetting the position of the white `caret` pixel seems to work usually.
+8. `ctrl+s` to save.
+9. `ctrl+w` to exit.
+10. (optional) `# eject` if you're using my eject util.
+
+Press `ctrl+c` to escape if you need to.
