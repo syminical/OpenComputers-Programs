@@ -43,6 +43,6 @@ Find the start of the first line it missed and copy from there to the end of the
     - Targetting the position of the white `caret` pixel seems to work usually.
 8. `ctrl+s` to save.
 9. `ctrl+w` to exit.
-10. (optional) `# eject` if you're using my eject util.
+10. (optional) `# eject` if you are using my eject util.
 
 Press `ctrl+c` to escape if you need to.
