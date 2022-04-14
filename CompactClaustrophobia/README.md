@@ -10,6 +10,10 @@ I hope you find them useful; they helped me a lot. **:)**
 ## Setup
 I copied `robot_hub.lua` (named `autorun` on disk) and the programs in `./minify` to a `floppy disk` for my robot.  
 
+### Layout
+This is the layout my **3x3x3** programs expect:  
+![turtle is facing the cube, right corner, two blocks between them](./img/3x3x3-minifySetup.png "3x3x3-minifySetup")
+
 ### It helps to set up a link to the floppy disk mount.  
 You need to know its ID to set this up.
 1. `# cd /home`
