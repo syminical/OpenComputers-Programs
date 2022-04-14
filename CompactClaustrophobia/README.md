@@ -3,8 +3,9 @@ I created these programs while playing through the `Compact Claustrophobia` `min
 I hope you find them useful; they helped me a lot. **:)**
 
 ### P.S.
-**Make sure you read the comments and place blocks in the correct slots!**
-**Sometimes the bot cannot pick up the items and they expire on the floor. Check in often!**
+**Make sure you read the comments and place blocks in the correct slots!**  
+**Sometimes the bot cannot pick up the items and they expire on the floor. Check in often!**  
+**Compare the receipt screen, and the minify recipe, with the number of result blocks to determine how much you're missing; maybe you can spawn those in? ;D**
 
 ## Setup
 I copied `robot_hub.lua` (named `autorun` on disk) and the programs in `./minify` to a `floppy disk` for my robot.  

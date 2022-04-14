@@ -225,7 +225,7 @@ local function build()
         end
 
         finish()
-        print('Complated '..pluralS(math.floor(top_block), 'time')..'! :)') --, with '..pluralS(math.floor(errors), 'error')..'! :)')
+        print('Completed '..pluralS(math.floor(top_block), 'time')..'! :)') --, with '..pluralS(math.floor(errors), 'error')..'! :)')
     else
         if top_block == 0 then
             print('Missing top blocks!')
