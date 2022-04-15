@@ -53,4 +53,11 @@ You can `shift+click` on the floppy in your inventory after opening the robot UI
 8. `save` & `exit`
 9.  (optional) `# eject` if you are using my eject util.
 
+## Troubleshooting  
 Press `ctrl+c` to escape if you need to.
+
+### Weird Error on Program Selection From Hub
+Breaking the robot causes this sometimes. **(`autorun` issue)**
+1. Press `ctrl+c` until you're in the robot's normal `shell`.
+2. Take the floppy out of the robot and then put it back in.
+3. Try the program again.
