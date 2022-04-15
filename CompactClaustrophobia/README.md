@@ -1,5 +1,5 @@
 # Compact Claustrophobia - Open Computers
-I created these programs while playing through the `Compact Claustrophobia` `minecraft` modpack on `FTB`.  
+I created these programs while playing through the [`Compact Claustrophobia`](https://www.curseforge.com/minecraft/modpacks/compact-claustrophobia) [`minecraft`](https://www.minecraft.net) modpack on [`FTB`](https://www.feed-the-beast.com/).  
 I hope you find them useful; they helped me a lot. **:)**
 
 ### P.S.
