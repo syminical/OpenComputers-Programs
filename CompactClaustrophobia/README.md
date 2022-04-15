@@ -43,11 +43,11 @@ You can `shift+click` on the floppy in your inventory after opening the robot UI
 3. `# edit robot/<path_to_program>`
     - If you ran `step 2`, press the `up arrow` key, `home` key, `delete` key x2, then type `edit` and press `enter`. **:)**
 4. Copy the code into your clipboard on your real computer. **(IRL)**
-5. Press down your `scroll wheel` on your mouse to paste.
+5. Press down your `scroll wheel` on your mouse to paste. **(IN GAME)**
 6. Wait for the **(long)** animation.
 7. Confirm all of the code you copied got pasted in.
    1. **CAREFULLY** inspect the last few lines at the bottom. It may have not pasted everything you copied.  
-   2. Find the start of the first line it missed and copy from there to the end of the code to your real clipboard again.  
+   2. Find the start of the first line it missed and copy from there to the end of the code to your real clipboard again. **(perfect whitespace/line-up should not matter)**  
    3. **CAREFULLY** click on the first pixel of the first empty line at the bottom and press your `mouse wheel` again to paste. Repeat until all the code makes it in correctly.
       - Targetting the position of the white `caret` pixel seems to work usually.
 8. `save` & `exit`
