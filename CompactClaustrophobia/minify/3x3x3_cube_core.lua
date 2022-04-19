@@ -126,13 +126,17 @@ local function loot()
     end
     back()
     if not r.suckDown() then
-        errors = errors + 1
-        print('Could not pick up!')
-        print('Please press enter')
-        io.read()
-        r.suckDown()
+        forward()
+        if not r.suckDown() then
+            errors = errors + 1
+            print('Could not pick up!')
+            print('Please press enter')
+            io.read()
+            r.suckDown()
+        end
+    else
+        forward()
     end
-    forward()
 end
 
 local function curlIn()
