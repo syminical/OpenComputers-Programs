@@ -11,8 +11,12 @@ I hope you find them useful; they helped me a lot. **:)**
 I copied `robot_hub.lua` (named `autorun` on disk) and the programs in `./minify` to a `floppy disk` for my robot.  
 
 ### Layout
-This is the layout my **3x3x3** programs expect:  
+#### This is the layout my **3x3x3** programs expect:  
 ![turtle is facing the cube, right corner, two blocks between them](./img/3x3x3-minifySetup.png "3x3x3-minifySetup")
+
+#### Example for **3x3x3 cube** with a complex "blueprint"  
+**The item stack sizes and positions matter!**  
+![recipe to build an intricate cube layout with the 3x3x3 program](img/3x3x3setup.png "3x3x3 controled blueprint")
 
 ### It helps to set up a link to the floppy disk mount.  
 You need to know its ID to set this up.
