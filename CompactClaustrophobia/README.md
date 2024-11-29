@@ -64,7 +64,7 @@ You can `shift+click` on the floppy in your inventory after opening the robot UI
 ## Troubleshooting  
 - Press `ctrl+c` to escape if you need to.
 - You may have to redefine the stalling process that avoids knocking the created item out of the way. Maybe add some more delay?
-    - Realistically, you need to time the wait cycles with the lag present in your system. Longer isn't always better. It's a modulo thing.
+    - Realistically, you need to time the wait cycles with the lag present in your system. Longer isn't always better. It's a modulo thing. (`local function down_patiently`)
 
 ### Weird Error on Program Selection From Hub
 Breaking the robot causes this sometimes. **(`autorun` issue)**
