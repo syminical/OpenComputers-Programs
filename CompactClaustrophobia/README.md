@@ -42,6 +42,9 @@ You can `shift+click` on the floppy in your inventory after opening the robot UI
 ### Autorun Load Order Annoyances
 **Open Computers** really is annoying. Sometimes it tries to run things before finishing its boot process. This leads to failure.
 1. Define it yourself on the floppy: `# cp /lib/robot.lua robot`
+    - This doesn't always work, so it probably doesn't work. Try rebooting until it works.
+        - It may require terminating the hub then rebooting. (`ctrl+c`)
+        - Try both the power button and `# reboot`.
 
 ### Modify Program on Floppy
 1. Insert floppy into disk reader.
