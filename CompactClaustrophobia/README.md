@@ -39,6 +39,10 @@ You are now able to safely insert floppies containing an `autorun`, and you can 
 **Open Computers** is annoying, or I am a noob. This is how I get code where it needs to be.  
 You can `shift+click` on the floppy in your inventory after opening the robot UI to put it in the right slot.
 
+### Autorun Load Order Annoyances
+**Open Computers** really is annoying. Sometimes it tries to run things before finishing its boot process. This leads to failure.
+1. Define it yourself on the floppy: `# cp /lib/robot.lua robot`
+
 ### Modify Program on Floppy
 1. Insert floppy into disk reader.
    - You can hold the floppy and `shift+right_click` it into the `Disk Drive`.
@@ -58,7 +62,9 @@ You can `shift+click` on the floppy in your inventory after opening the robot UI
 9.  (optional) `# eject` if you are using my eject util.
 
 ## Troubleshooting  
-Press `ctrl+c` to escape if you need to.
+- Press `ctrl+c` to escape if you need to.
+- You may have to redefine the stalling process that avoids knocking the created item out of the way. Maybe add some more delay?
+    - Realistically, you need to time the wait cycles with the lag present in your system. Longer isn't always better. It's a modulo thing.
 
 ### Weird Error on Program Selection From Hub
 Breaking the robot causes this sometimes. **(`autorun` issue)**

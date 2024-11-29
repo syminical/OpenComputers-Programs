@@ -123,6 +123,13 @@ local function down()
     while not r.down() do end
 end
 
+local function down_patiently()
+    while r.detectDown() do
+        os.sleep(1)
+    end
+    down()
+end
+
 local function minify()
     drop()
     os.sleep(1)
@@ -151,9 +158,7 @@ local function loot()
             return loot()
         end
     end
-    back()
     if not r.suckDown() then
-        forward()
         if not r.suckDown() then
             errors = errors + 1
             print('Could not pick up!')
@@ -161,8 +166,6 @@ local function loot()
             io.read()
             r.suckDown()
         end
-    else
-        forward()
     end
 end
 
@@ -178,9 +181,9 @@ local function build_pillar()
     up()
     up()
     minify()
-    down()
-    down()
-    down()
+    down_patiently()
+    down_patiently()
+    down_patiently()
     loot()
 end
 
